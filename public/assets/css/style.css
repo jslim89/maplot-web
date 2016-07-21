@@ -1,0 +1,90 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #666666;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    outline: 0;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+a:hover {
+    color: #303030;
+    text-decoration: none;
+}
+a, a:focus {
+    outline: 0;
+    outline-offset: 0;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    margin-bottom: 15px;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-weight: inherit;
+}
+h1 {
+    font-size: 26px;
+    color: #40aae6;
+    margin-top: 0;
+}
+h2 {
+    font-size: 20px;
+    10px;
+    color: #2a333b;
+    margin-top: 0;
+}
+h3 {
+    font-size: 18px;
+    color: #40aae6;
+    margin-top: 0;
+}
+h4 {
+    font-size: 16px;
+    color: #999;
+    font-weight: normal;
+}
+h5 {
+    font-size: 15px;
+    color: #999;
+}
+h6 {
+    font-size: 14px;
+    color: #999;
+}
+#map {
+    width: 100%;
+    height: 100vh;
+    background: #FFF;
+    padding: 0;
+    border-color: #cfcfcf;
+    border-width: 1px 0;
+    border-style: solid;
+    overflow: none;
+}
+#map address {
+    font-style: normal;
+}
+#map-info {
+    line-height:1.35;
+    overflow:hidden;
+    white-space:nowrap;
+}
+#map-info img {
+    max-width: 250px;
+}
+#map-info .addr-section {
+    margin-top: 10px;
+}
+.gmnoprint img {
+    max-width: none; 
+}
