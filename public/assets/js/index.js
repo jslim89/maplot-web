@@ -21,3 +21,22 @@ var infowindow = new google.maps.InfoWindow({
 });
 
 infowindow.open(map, marker);
+
+$(function() {
+  $('#frm-prospect').submit(function(e) {
+    var url = $(this).attr('action');
+    var method = $(this).attr('method');
+
+    $.ajax({
+      url: url,
+      type: method,
+      dataType: 'json',
+      success: function(data, textStatus, jqXHR) {
+        console.log(data);
+      },
+      error: function(jqXHR, textStatus, errorThrown) {
+      }
+    });
+    return false;
+  });
+});
